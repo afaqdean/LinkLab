@@ -1,0 +1,18 @@
+{
+  "name": "linklab",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:web\"",
+    "dev:api": "cd api && npm run start:dev",
+    "dev:web": "cd web && npm run dev",
+    "build": "npm run build:api && npm run build:web",
+    "build:api": "cd api && npm run build",
+    "build:web": "cd web && npm run build",
+    "db:push": "cd api && npx prisma db push",
+    "db:generate": "cd api && npx prisma generate",
+    "db:seed": "cd api && npx prisma db seed"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
