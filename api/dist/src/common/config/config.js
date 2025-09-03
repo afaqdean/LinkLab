@@ -17,5 +17,6 @@ exports.appConfig = {
     bcryptRounds: Number(readEnv('BCRYPT_ROUNDS', '12')),
     webOrigin: process.env.WEB_ORIGIN,
     apiPort: Number(readEnv('PORT', '3000')),
+    eventIpSalt: readEnv('SECRET_SALT'),
 };
 //# sourceMappingURL=config.js.map

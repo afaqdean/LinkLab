@@ -1,1 +1,1 @@
-{"version":3,"file":"link.module.js","sourceRoot":"","sources":["../../../src/links/link.module.ts"],"names":[],"mappings":""}
+{"version":3,"file":"link.module.js","sourceRoot":"","sources":["../../../src/links/link.module.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAAwC;AACxC,iDAA6C;AAC7C,uDAAmD;AACnD,6DAAyD;AACzD,+DAA2D;AAOpD,IAAM,UAAU,GAAhB,MAAM,UAAU;CAAG,CAAA;AAAb,gCAAU;qBAAV,UAAU;IALtB,IAAA,eAAM,EAAC;QACN,WAAW,EAAE,CAAC,gCAAc,EAAE,wCAAkB,CAAC;QACjD,SAAS,EAAE,CAAC,0BAAW,EAAE,8BAAa,CAAC;QACvC,OAAO,EAAE,CAAC,0BAAW,CAAC;KACvB,CAAC;GACW,UAAU,CAAG"}

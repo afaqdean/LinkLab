@@ -9,6 +9,7 @@ export type AppConfig = {
   bcryptRounds: number;
   webOrigin?: string;
   apiPort: number;
+  eventIpSalt: string;
 };
 
 function readEnv(key: string, fallback?: string): string {
@@ -31,4 +32,5 @@ export const appConfig: AppConfig = {
   bcryptRounds: Number(readEnv('BCRYPT_ROUNDS', '12')),
   webOrigin: process.env.WEB_ORIGIN,
   apiPort: Number(readEnv('PORT', '3000')),
+  eventIpSalt: readEnv('SECRET_SALT'),
 };

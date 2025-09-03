@@ -7,5 +7,6 @@ export type AppConfig = {
     bcryptRounds: number;
     webOrigin?: string;
     apiPort: number;
+    eventIpSalt: string;
 };
 export declare const appConfig: AppConfig;
